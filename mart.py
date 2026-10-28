@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 path = r"D:\LEARN BROGRAMMING ALL\archive (1)\Compras2022.xlsx"
 df = pd.read_excel(path)
 
-# Q1: Top 5 suppliers by total spent
+# Q1: Top 5 suppliers by total spent...//kokxo
 by_supplier = (
     df.groupby("proveedor")["total_siniva"].sum().sort_values(ascending=False).head(5)
 )
